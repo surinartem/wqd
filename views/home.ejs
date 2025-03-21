@@ -1,0 +1,15 @@
+<%- include('partials/header'); -%>
+
+    <h2>home</h2>
+    <p><%= blankContent %></p>
+
+    <% startingContent.forEach(element => { %>
+    
+        <h2> <%= element.title %></h2>
+        <p> <%= element.text %></p>
+    
+    
+<% }); %>  
+
+
+<%- include('partials/footer'); -%>
